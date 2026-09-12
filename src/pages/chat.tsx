@@ -5,6 +5,7 @@ import Button from "@/components/ui/Button";
 import { TextArea } from "@/components/ui/TextArea";
 import { Card } from "@/components/ui/Card";
 import { TypingMessage } from "@/components/TypingMessage";
+import Image from "next/image";
 
 export default function Chat() {
   const { messages, isLoading, sendMessage } = useChat();
@@ -64,9 +65,20 @@ export default function Chat() {
               msg.role === "assistant" ? "mr-auto" : "ml-auto"
             }`}
           >
-            <h2 className="mb-2 text-lg font-semibold">
-              {msg.role === "user" ? name : "Mental Health Companion"}
-            </h2>
+            <div className="mb-2 flex items-center gap-2">
+              {msg.role === "assistant" && (
+                <Image
+                  src="/favicon.png"
+                  alt="Mental Health Companion"
+                  width={24}
+                  height={24}
+                  className="rounded-full border border-zinc-700 object-cover"
+                />
+              )}
+              <h2 className="text-lg font-semibold">
+                {msg.role === "user" ? name : "Mental Health Companion"}
+              </h2>
+            </div>
             {msg.role === "assistant" ? (
               <TypingMessage content={msg.content} />
             ) : (
