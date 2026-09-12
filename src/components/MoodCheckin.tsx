@@ -8,6 +8,7 @@ export const MoodCheckin = () => {
     const openingQuestions = moodCheckinQuestions.filter(
       (q) => q.type === "Opening Check-in"
     );
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setQuestion(openingQuestions[Math.floor(Math.random() * openingQuestions.length)]);
   }, []);
 
