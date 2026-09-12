@@ -19,9 +19,9 @@ export default function Home() {
           <Image
             src="/favicon.png"
             alt="Mental Health Companion Logo"
-            width={38}
-            height={38}
-            className="rounded-full border border-zinc-800 shadow-md object-cover"
+            width={36}
+            height={36}
+            className="object-contain"
           />
           <h1 className="text-4xl font-bold">{`Mental Health Companion`}</h1>
         </div>
