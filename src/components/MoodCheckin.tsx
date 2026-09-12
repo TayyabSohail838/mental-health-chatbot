@@ -1,13 +1,17 @@
-import React, { useMemo } from "react";
+import React, { useState, useEffect } from "react";
 import moodCheckinQuestions from "../data/moodCheckinQuestions.json";
 
 export const MoodCheckin = () => {
-  const question = useMemo(() => {
+  const [question, setQuestion] = useState<{ question: string } | null>(null);
+
+  useEffect(() => {
     const openingQuestions = moodCheckinQuestions.filter(
       (q) => q.type === "Opening Check-in"
     );
-    return openingQuestions[Math.floor(Math.random() * openingQuestions.length)];
+    setQuestion(openingQuestions[Math.floor(Math.random() * openingQuestions.length)]);
   }, []);
+
+  if (!question) return null;
 
   return (
     <div className="w-full max-w-md mx-auto text-center">
