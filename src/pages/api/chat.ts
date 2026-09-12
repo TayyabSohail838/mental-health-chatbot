@@ -68,9 +68,7 @@ export default async function handler(
     const systemInstruction = SYSTEM_PROMPT + contextBlock;
 
     // Convert messages to Gemini format
-    const geminiContents = message
-      .filter((m: Message) => m.role !== "system")
-      .map((m: Message) => ({
+    const geminiContents = message.map((m: Message) => ({
         role: m.role === "assistant" ? "model" : "user",
         parts: [{ text: m.content }],
       }));
