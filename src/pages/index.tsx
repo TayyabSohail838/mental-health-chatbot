@@ -15,14 +15,16 @@ export default function Home() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-between py-16 px-4 bg-white dark:bg-black">
       <div className="flex flex-col items-center">
-        <Image
-          src="/favicon.png"
-          alt="Mental Health Companion Logo"
-          width={64}
-          height={64}
-          className="rounded-full border border-zinc-800 shadow-lg mb-3 object-cover"
-        />
-        <h1 className="text-4xl font-bold">{`Mental Health Companion`}</h1>
+        <div className="flex items-center gap-3">
+          <Image
+            src="/favicon.png"
+            alt="Mental Health Companion Logo"
+            width={38}
+            height={38}
+            className="rounded-full border border-zinc-800 shadow-md object-cover"
+          />
+          <h1 className="text-4xl font-bold">{`Mental Health Companion`}</h1>
+        </div>
         <h4 className="mt-2 text-lg text-zinc-600 dark:text-zinc-400">
           Your mental health therapy chatbot.
         </h4>
