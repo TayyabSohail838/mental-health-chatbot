@@ -1,0 +1,17 @@
+[
+  {"name": "5-4-3-2-1 Senses", "steps": "Name 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, 1 you can taste.", "duration": "2-3 minutes", "bestFor": "Sudden anxiety spikes, dissociation, racing thoughts"},
+  {"name": "Body Scan", "steps": "Slowly bring attention from your toes to your head, noticing sensation without judgment in each area.", "duration": "3-5 minutes", "bestFor": "Disconnected from body, tension, pre-sleep wind-down"},
+  {"name": "Cold Water Reset", "steps": "Splash cool water on your face or hold a cool object, focusing fully on the sensation.", "duration": "30-60 seconds", "bestFor": "Panic escalation, needing a fast physiological reset"},
+  {"name": "Feet on the Floor", "steps": "Press both feet firmly into the ground and notice the pressure and contact points.", "duration": "1 minute", "bestFor": "Feeling ungrounded, spacey, or panicked in public"},
+  {"name": "Category Naming", "steps": "Pick a category (fruits, cities, songs) and name as many as you can in one minute.", "duration": "1 minute", "bestFor": "Racing thoughts, intrusive thought loops"},
+  {"name": "Object Study", "steps": "Pick up a nearby object and describe its texture, weight, color, and temperature in detail.", "duration": "1-2 minutes", "bestFor": "Dissociation, derealization"},
+  {"name": "Counting Backward", "steps": "Count backward from 100 by 7s (or any interval), focusing only on the numbers.", "duration": "1-2 minutes", "bestFor": "Overwhelm, needing full mental redirection"},
+  {"name": "Naming the Room", "steps": "Silently list 10 objects you can see around you right now.", "duration": "1 minute", "bestFor": "Anxiety in unfamiliar or overwhelming spaces"},
+  {"name": "Progressive Muscle Relaxation", "steps": "Tense a muscle group for 5 seconds, then release, moving from feet to head.", "duration": "5-8 minutes", "bestFor": "Physical tension, trouble winding down"},
+  {"name": "Anchor Phrase", "steps": "Repeat a short grounding phrase like 'I am here, I am safe right now' while breathing slowly.", "duration": "1 minute", "bestFor": "Emotional flooding, panic"},
+  {"name": "Texture Walk", "steps": "Notice the texture of your clothing, chair, or nearby fabric with your fingertips.", "duration": "1 minute", "bestFor": "Quick grounding when seated"},
+  {"name": "Temperature Awareness", "steps": "Notice the temperature of the air on your skin, and any warm or cool spots around you.", "duration": "1 minute", "bestFor": "Mild anxiety, restlessness"},
+  {"name": "Sound Mapping", "steps": "Close your eyes and identify the closest sound, then the farthest sound you can hear.", "duration": "1-2 minutes", "bestFor": "Racing mind, difficulty focusing"},
+  {"name": "Weighted Comfort", "steps": "Hold a pillow, blanket, or place a hand firmly on your chest and notice the pressure.", "duration": "1-2 minutes", "bestFor": "Emotional overwhelm, seeking safety cues"},
+  {"name": "Slow Walk Awareness", "steps": "Walk slowly and narrate each physical movement internally: 'lifting, moving, placing'.", "duration": "2-3 minutes", "bestFor": "Restlessness, needing to move while grounding"}
+]

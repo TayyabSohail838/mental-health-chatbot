@@ -1,0 +1,12 @@
+[
+  {"name": "Box Breathing", "pattern": "Inhale 4s → Hold 4s → Exhale 4s → Hold 4s", "instructions": "Repeat the cycle 4-6 times, keeping a steady even rhythm."},
+  {"name": "4-7-8 Breathing", "pattern": "Inhale 4s → Hold 7s → Exhale 8s", "instructions": "Repeat 3-4 cycles; exhale should feel long and audible."},
+  {"name": "Diaphragmatic Breathing", "pattern": "Inhale slowly through the nose, feel the belly rise, not the chest", "instructions": "Place one hand on the belly, one on the chest; only the belly hand should move."},
+  {"name": "Coherent Breathing", "pattern": "Inhale 5.5s → Exhale 5.5s (roughly 5.5 breaths/min)", "instructions": "Continue for 3-5 minutes, keeping breaths smooth and unforced."},
+  {"name": "Extended Exhale", "pattern": "Inhale 4s → Exhale 6-8s", "instructions": "Repeat for 1-2 minutes; a longer exhale activates the calming nervous system response."},
+  {"name": "Sighing Breath", "pattern": "Take a full inhale, then a second short top-up inhale, then release a long slow exhale (like a sigh)", "instructions": "Repeat 3 times; helpful for immediate tension release."},
+  {"name": "Alternate Nostril (simplified)", "pattern": "Inhale through one nostril (gently close the other with a finger), exhale through the other side", "instructions": "Alternate sides for 5-6 rounds; slow and unhurried."},
+  {"name": "Counted Breath", "pattern": "Simply count each inhale and exhale up to 10, then restart from 1", "instructions": "Use when the mind needs a simple anchor rather than a pattern."},
+  {"name": "Pursed Lip Breathing", "pattern": "Inhale through the nose for 2s, exhale slowly through pursed lips for 4s", "instructions": "Good for slowing a fast breathing rate during anxiety."},
+  {"name": "Humming Breath (Bhramari-inspired)", "pattern": "Inhale normally, exhale while making a soft humming sound", "instructions": "Repeat 5-6 times; the vibration can have a calming effect."}
+]

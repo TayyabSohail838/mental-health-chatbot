@@ -1,0 +1,14 @@
+[
+  {"type": "Opening Check-in", "question": "How are you feeling right now, in one word?", "followUp": "What's making you feel that way today?"},
+  {"type": "Opening Check-in", "question": "On a scale of 1-10, how would you rate your energy today?", "followUp": "What would help raise that number by even one point?"},
+  {"type": "Opening Check-in", "question": "What's the first emotion you noticed when you woke up today?", "followUp": "Has that feeling shifted since then?"},
+  {"type": "Physical Check-in", "question": "How does your body feel right now — tense, relaxed, tired, restless?", "followUp": "Where in your body do you notice that most?"},
+  {"type": "Physical Check-in", "question": "Have you eaten, had water, and rested today?", "followUp": "Which of those feels most needed right now?"},
+  {"type": "Sleep Check-in", "question": "How did you sleep last night?", "followUp": "Do you feel that's affecting your mood today?"},
+  {"type": "Social Check-in", "question": "Have you connected with anyone today?", "followUp": "Would connecting with someone help right now, or do you need space?"},
+  {"type": "Thought Check-in", "question": "What thought has been repeating in your mind today?", "followUp": "Is that thought helping you or weighing you down?"},
+  {"type": "Thought Check-in", "question": "What's something you're worried about right now?", "followUp": "Is this something you can act on today, or something to sit with?"},
+  {"type": "Progress Check-in", "question": "Compared to yesterday, do you feel better, worse, or about the same?", "followUp": "What's one thing that contributed to that?"},
+  {"type": "Coping Check-in", "question": "What have you done for yourself today, even something small?", "followUp": "What's one small thing you could still do before the day ends?"},
+  {"type": "Closing Check-in", "question": "What's one word to describe how you feel ending this conversation?", "followUp": "Is there anything you need before we wrap up?"}
+]
